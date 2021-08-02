@@ -307,7 +307,7 @@ class TileEdge(object):
             i += self.n_cols
             found = True
         if not found:
-            print "Side '%s' not found" % neighbor_side
+            print ("Side '%s' not found" % neighbor_side)
         # Check if i is in range
         if i < 0 or i >= self.n_chunks:
             return None
